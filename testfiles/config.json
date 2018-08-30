@@ -1,0 +1,19 @@
+{
+    "Network" : {
+        "Name" : "my_network_name",
+        "Containers" : [
+            {
+                "Folder" : "FolderOne",
+                "Name" : "service_one",
+                "ExternalPort" : "8001",
+                "Port" : "8080"
+            },
+            {
+                "Folder" : "FolderTwo",
+                "Name" : "service_two",
+                "ExternalPort" : "8002",
+                "Port" : "8080"
+            }
+        ]
+    } 
+}
