@@ -27,3 +27,15 @@ Provide information about the containers you are going to have running. If you h
     } 
 }
 ```
+
+After you've configured your things, just run:
+
+```
+make start
+```
+
+and when you're done:
+
+```
+make stop
+```
