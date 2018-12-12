@@ -4,13 +4,15 @@
         "Containers" : [
             {
                 "Folder" : "FolderOne",
-                "Name" : "service_one",
+                "ImageName" : "service_one",
+                "ContainerName" : "service_one",
                 "ExternalPort" : "8001",
                 "Port" : "8080"
             },
             {
                 "Folder" : "FolderTwo",
-                "Name" : "service_two",
+                "ImageName" : "service_two",
+                "ContainerName" : "service_two",
                 "ExternalPort" : "8002",
                 "Port" : "8080"
             }

@@ -1,11 +1,14 @@
+build:
+	python container_manager.py build
+
 start:
-	python app.py start
+	python container_manager.py start 
 
 stop:
-	python app.py stop
+	python container_manager.py stop
 
 restart:
-	python app.py restart
+	python container_manager.py restart
 
 tests:
 	./test.sh
