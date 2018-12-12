@@ -1,7 +1,7 @@
 echo "Creating test environment...."
 mkdir test
 
-cp app.py test/app.py
+cp container_manager.py test/container_manager.py
 cp Makefile test/Makefile
 cp testfiles/config.json test/config.json
 
